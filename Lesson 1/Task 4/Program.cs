@@ -25,12 +25,6 @@ else
     max = numberB;
 }
 
-if (max > numberC)
-{
-    max = max; 
-}
-else
-{
-    max = numberC;
-}
+if (max < numberC) max = numberC; 
+
 Console.WriteLine("max = " + max);
